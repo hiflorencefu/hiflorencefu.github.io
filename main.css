@@ -87,6 +87,7 @@ a:hover {
 
   .about {
     width: 28%;
+
   }
 
 }
@@ -96,7 +97,7 @@ a:hover {
 
 @media only screen and (max-width: 767px) {
 
-  /* .nav {
+  .nav {
     padding-left: 2%;
     padding-top: 5%;
 
@@ -109,7 +110,7 @@ a:hover {
     text-align: center;
     padding-right: 8px;
     padding-left: 8px;
-  } */
+  }
 
 
   .moon {
@@ -118,19 +119,16 @@ a:hover {
   }
 
   .clock {
-
+    margin-top: 10%;
     bottom: unset;
     text-align: center;
-    position: relative;
-    text-align: center;
-    padding-top: 5%;
   }
 
   .about {
     width: 85%;
     font-size: 14px;
     margin-top: 15%;
-    padding-left: 5%;
+    padding-left: 8%;
     padding-right: 5%;
   }
 
