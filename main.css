@@ -1,7 +1,5 @@
 ---
 ---
-@import "projects.scss";
-@import "post.scss";
 
 @font-face {
     src: url('../assets/fonts/RoslindaleText-Regular.eot'); /* IE < 9 */
@@ -71,7 +69,7 @@ a:hover {
 }
 
 p.contact {
-  text-align: center;
+  text-align:
 }
 
 
