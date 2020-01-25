@@ -42,8 +42,10 @@ body {
   text-align: center;
   font-family: "Cousine";
   font-size: 11px;
-  position: relative;
   line-height: 1.1em;
+  display: block;
+
+
 }
 
 
@@ -56,34 +58,41 @@ body {
 }
 
 a:hover {
-  text-decoration: none
+  text-decoration: none;
 }
 
 .about a {
-  text-decoration: none
+  text-decoration: none;
+
 }
+
+.about p {
+  clear: both;
+}
+
+p.contact {
+  text-align: center;
+}
+
 
 .clock {
   font-family: "Cousine";
   font-size: 10px;
-  position: relative;
-  line-height: .5em;
-  text-align: right;
+  line-height: 3em;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
   .moon {
-    float: right;
+    float: center;
+    display: block;
+
   }
 
-  .clock {
-    bottom: 9%;
-    right: 1%;
-    position: fixed;
-  }
 
   .about {
     width: 28%;
+    display: block;
 
   }
 
@@ -128,6 +137,7 @@ a:hover {
     margin-top: 5%;
     padding-left: 7%;
     padding-right: 5%;
+    display: block;
   }
 
 .contact {
