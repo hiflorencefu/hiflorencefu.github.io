@@ -31,9 +31,10 @@
 }
 
 body {
-  font-family: "Times New Roman";
-  font-size: 15px;
+  font-family: "RoslindaleText-Regular", "Times New Roman";
+  font-size: 13px;
   background-color: white;
+  line-height: 1.em;
 }
 
 .moon {
@@ -48,20 +49,17 @@ body {
 
 
 
-.nav a {
-  font-family: "Cousine";
-  font-size: 11px;
-  text-decoration: none;
-
-}
-
 a:hover {
   text-decoration: none;
 }
 
+a:link, a:visited {
+  color: blue;
+}
+
+
 .about a {
   text-decoration: none;
-
 }
 
 .about p {
@@ -141,5 +139,8 @@ p.contact {
 .contact {
   text-align: center;
 }
-
+body {
+  font-size: 13px;
+  line-height: 1.5em;
+}
 }
