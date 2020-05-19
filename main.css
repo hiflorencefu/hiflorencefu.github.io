@@ -26,8 +26,12 @@
   color: white;
 }
 
-.dark a:link, a:visited {
+.dark a:link {
   color: white;
+}
+
+.dark a:visited {
+   color: white;
 }
 
 body {
@@ -53,9 +57,7 @@ a:hover {
   text-decoration: none;
 }
 
-a:link, a:visited {
-  color: white;
-}
+
 
 
 .about a {
