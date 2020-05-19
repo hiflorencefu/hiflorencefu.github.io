@@ -26,7 +26,7 @@
   color: white;
 }
 
-.dark a {
+.dark a:link, a:visited {
   color: white;
 }
 
@@ -54,7 +54,7 @@ a:hover {
 }
 
 a:link, a:visited {
-  color: blue;
+  color: white;
 }
 
 
