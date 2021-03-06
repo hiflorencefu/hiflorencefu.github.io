@@ -1,6 +1,6 @@
 
 function GetClock(){
-var tzOffset = -5;//set this to the number of hours offset from UTC
+var tzOffset = +8;//set this to the number of hours offset from UTC
 
 var d=new Date();
 var dx=d.toGMTString();
